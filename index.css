@@ -1,18 +1,24 @@
 @media only screen and (max-width: 500px) {
     body {
         margin: 0;
+        background-color: #b3ffb3;
     }
     
     #holder {
-        background-color: aquamarine;
+        background-color: inherit;
         width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    .dayText {
-        display:;
+    #todayis {
+        font-size: 2em;
+    }
+    #currentday {
+        font-size: 3em;
+        border-bottom: .1em solid #FF5050;
+        color: #FF5050;
     }
 
 }
